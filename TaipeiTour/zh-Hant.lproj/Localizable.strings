@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  TaipeiTour
+
+  Created by Luis Wu on 11/25/16.
+  Copyright © 2016 Luis Wu. All rights reserved.
+*/
+
+"nav_bar_title" = "台北觀光景點";
+"error" = "錯誤";
+"dismiss" = "關閉";
+"category" = "類別";
+"category_filter_message" = "選擇有興趣的類別";
+"all_categories" = "所有類別";
+"no_data" = "無資料";

@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E845850BDDC8C5190D2A7CC /* Pods_TaipeiTourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B5562962EC8E42C09EA2A4 /* Pods_TaipeiTourUITests.framework */; };
+		E90FEC66FD94DAFA6B836645 /* Pods_TaipeiTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16730AA98BC181F3AD2ECA1C /* Pods_TaipeiTourTests.framework */; };
 		E92716ED1DE810FB00732F76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92716EC1DE810FB00732F76 /* AppDelegate.swift */; };
-		E92716EF1DE810FB00732F76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92716EE1DE810FB00732F76 /* ViewController.swift */; };
+		E92716EF1DE810FB00732F76 /* TPETouristAttractionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92716EE1DE810FB00732F76 /* TPETouristAttractionsTableViewController.swift */; };
 		E92716F21DE810FB00732F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92716F01DE810FB00732F76 /* Main.storyboard */; };
 		E92716F41DE810FB00732F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92716F31DE810FB00732F76 /* Assets.xcassets */; };
 		E92716F71DE810FB00732F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92716F51DE810FB00732F76 /* LaunchScreen.storyboard */; };
 		E92717021DE810FB00732F76 /* TaipeiTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92717011DE810FB00732F76 /* TaipeiTourTests.swift */; };
 		E927170D1DE810FB00732F76 /* TaipeiTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927170C1DE810FB00732F76 /* TaipeiTourUITests.swift */; };
+		E9983BBF1DE84FFC009F4185 /* TPETouristAttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9983BBE1DE84FFC009F4185 /* TPETouristAttractionTableViewCell.swift */; };
+		E9983BC21DE87829009F4185 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9983BC41DE87829009F4185 /* Localizable.strings */; };
+		E9983BC81DE9AB8C009F4185 /* TPETourismAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9983BC71DE9AB8C009F4185 /* TPETourismAPIService.swift */; };
+		E9A6F1771DE816CD0072C3A2 /* TPETouristAttractionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F1761DE816CD0072C3A2 /* TPETouristAttractionsPresenter.swift */; };
+		E9A6F1791DE816F40072C3A2 /* TPETouristAttractionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F1781DE816F40072C3A2 /* TPETouristAttractionModel.swift */; };
+		E9A6F17B1DE81C0F0072C3A2 /* TPETouristAttractionsAPIResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F17A1DE81C0F0072C3A2 /* TPETouristAttractionsAPIResponseModel.swift */; };
+		E9A6F17D1DE81CE00072C3A2 /* TPETouristAttractionsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F17C1DE81CE00072C3A2 /* TPETouristAttractionsResultModel.swift */; };
+		F4604FC34EEB5FAF33FA6255 /* Pods_TaipeiTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A467E2AD70E8EA3C8B3F8DF /* Pods_TaipeiTour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16730AA98BC181F3AD2ECA1C /* Pods_TaipeiTourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiTourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DE2EAD4783F11BA045EC04 /* Pods-TaipeiTourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTourTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTourTests/Pods-TaipeiTourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37FD798E39C93B59C9D5CDCD /* Pods-TaipeiTourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTourUITests/Pods-TaipeiTourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4777EAF5BACE0CD3F257E011 /* Pods-TaipeiTourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTourTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTourTests/Pods-TaipeiTourTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A467E2AD70E8EA3C8B3F8DF /* Pods_TaipeiTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90445ED0D46DED9136D60F1E /* Pods-TaipeiTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTour/Pods-TaipeiTour.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B5562962EC8E42C09EA2A4 /* Pods_TaipeiTourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiTourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89495D0E7AB4A959D0664D6 /* Pods-TaipeiTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTour/Pods-TaipeiTour.release.xcconfig"; sourceTree = "<group>"; };
+		E46A3DC51FF58D28E0239427 /* Pods-TaipeiTourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTourUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTourUITests/Pods-TaipeiTourUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E92716E91DE810FB00732F76 /* TaipeiTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92716EC1DE810FB00732F76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E92716EE1DE810FB00732F76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E92716EE1DE810FB00732F76 /* TPETouristAttractionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionsTableViewController.swift; sourceTree = "<group>"; };
 		E92716F11DE810FB00732F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E92716F31DE810FB00732F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92716F61DE810FB00732F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,15 @@
 		E92717081DE810FB00732F76 /* TaipeiTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaipeiTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E927170C1DE810FB00732F76 /* TaipeiTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiTourUITests.swift; sourceTree = "<group>"; };
 		E927170E1DE810FB00732F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9983BBE1DE84FFC009F4185 /* TPETouristAttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionTableViewCell.swift; sourceTree = "<group>"; };
+		E9983BC31DE87829009F4185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9983BC51DE8782E009F4185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9983BC61DE87985009F4185 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E9983BC71DE9AB8C009F4185 /* TPETourismAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETourismAPIService.swift; sourceTree = "<group>"; };
+		E9A6F1761DE816CD0072C3A2 /* TPETouristAttractionsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionsPresenter.swift; sourceTree = "<group>"; };
+		E9A6F1781DE816F40072C3A2 /* TPETouristAttractionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionModel.swift; sourceTree = "<group>"; };
+		E9A6F17A1DE81C0F0072C3A2 /* TPETouristAttractionsAPIResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionsAPIResponseModel.swift; sourceTree = "<group>"; };
+		E9A6F17C1DE81CE00072C3A2 /* TPETouristAttractionsResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPETouristAttractionsResultModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4604FC34EEB5FAF33FA6255 /* Pods_TaipeiTour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90FEC66FD94DAFA6B836645 /* Pods_TaipeiTourTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E845850BDDC8C5190D2A7CC /* Pods_TaipeiTourUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1FA2599292870538DD24F52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90445ED0D46DED9136D60F1E /* Pods-TaipeiTour.debug.xcconfig */,
+				B89495D0E7AB4A959D0664D6 /* Pods-TaipeiTour.release.xcconfig */,
+				32DE2EAD4783F11BA045EC04 /* Pods-TaipeiTourTests.debug.xcconfig */,
+				4777EAF5BACE0CD3F257E011 /* Pods-TaipeiTourTests.release.xcconfig */,
+				E46A3DC51FF58D28E0239427 /* Pods-TaipeiTourUITests.debug.xcconfig */,
+				37FD798E39C93B59C9D5CDCD /* Pods-TaipeiTourUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E43BBEAA8E965017B116DED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A467E2AD70E8EA3C8B3F8DF /* Pods_TaipeiTour.framework */,
+				16730AA98BC181F3AD2ECA1C /* Pods_TaipeiTourTests.framework */,
+				A1B5562962EC8E42C09EA2A4 /* Pods_TaipeiTourUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E92716E01DE810FB00732F76 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				E92717001DE810FB00732F76 /* TaipeiTourTests */,
 				E927170B1DE810FB00732F76 /* TaipeiTourUITests */,
 				E92716EA1DE810FB00732F76 /* Products */,
+				D1FA2599292870538DD24F52 /* Pods */,
+				E43BBEAA8E965017B116DED0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +154,14 @@
 			isa = PBXGroup;
 			children = (
 				E92716EC1DE810FB00732F76 /* AppDelegate.swift */,
-				E92716EE1DE810FB00732F76 /* ViewController.swift */,
+				E92716EE1DE810FB00732F76 /* TPETouristAttractionsTableViewController.swift */,
+				E9A6F1761DE816CD0072C3A2 /* TPETouristAttractionsPresenter.swift */,
+				E9983BC71DE9AB8C009F4185 /* TPETourismAPIService.swift */,
+				E9A6F17A1DE81C0F0072C3A2 /* TPETouristAttractionsAPIResponseModel.swift */,
+				E9A6F17C1DE81CE00072C3A2 /* TPETouristAttractionsResultModel.swift */,
+				E9A6F1781DE816F40072C3A2 /* TPETouristAttractionModel.swift */,
+				E9983BBE1DE84FFC009F4185 /* TPETouristAttractionTableViewCell.swift */,
+				E9983BC41DE87829009F4185 /* Localizable.strings */,
 				E92716F01DE810FB00732F76 /* Main.storyboard */,
 				E92716F31DE810FB00732F76 /* Assets.xcassets */,
 				E92716F51DE810FB00732F76 /* LaunchScreen.storyboard */,
@@ -132,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E92717111DE810FB00732F76 /* Build configuration list for PBXNativeTarget "TaipeiTour" */;
 			buildPhases = (
+				3C51C810334B0B1D21E3E82E /* [CP] Check Pods Manifest.lock */,
 				E92716E51DE810FB00732F76 /* Sources */,
 				E92716E61DE810FB00732F76 /* Frameworks */,
 				E92716E71DE810FB00732F76 /* Resources */,
+				2B5C162B9A3ABF22976E3310 /* [CP] Embed Pods Frameworks */,
+				C6AE2D2E2E6E1E187A106623 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E92717141DE810FB00732F76 /* Build configuration list for PBXNativeTarget "TaipeiTourTests" */;
 			buildPhases = (
+				566FDF90D44DAC43491B0CA1 /* [CP] Check Pods Manifest.lock */,
 				E92716F91DE810FB00732F76 /* Sources */,
 				E92716FA1DE810FB00732F76 /* Frameworks */,
 				E92716FB1DE810FB00732F76 /* Resources */,
+				F43016BC2A1CDD1465C44565 /* [CP] Embed Pods Frameworks */,
+				D5C47CC217FA57E8A34C63E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E92717171DE810FB00732F76 /* Build configuration list for PBXNativeTarget "TaipeiTourUITests" */;
 			buildPhases = (
+				88BED21C02C69E66CF418AEA /* [CP] Check Pods Manifest.lock */,
 				E92717041DE810FB00732F76 /* Sources */,
 				E92717051DE810FB00732F76 /* Frameworks */,
 				E92717061DE810FB00732F76 /* Resources */,
+				34740DE1AFED1EF2A9F93F66 /* [CP] Embed Pods Frameworks */,
+				24602A960A4F00034EDD11AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +265,7 @@
 				TargetAttributes = {
 					E92716E81DE810FB00732F76 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E92716FC1DE810FB00732F76 = {
 						CreatedOnToolsVersion = 8.1;
@@ -214,6 +286,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = E92716E01DE810FB00732F76;
 			productRefGroup = E92716EA1DE810FB00732F76 /* Products */;
@@ -233,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92716F71DE810FB00732F76 /* LaunchScreen.storyboard in Resources */,
+				E9983BC21DE87829009F4185 /* Localizable.strings in Resources */,
 				E92716F41DE810FB00732F76 /* Assets.xcassets in Resources */,
 				E92716F21DE810FB00732F76 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +328,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24602A960A4F00034EDD11AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTourUITests/Pods-TaipeiTourUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5C162B9A3ABF22976E3310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTour/Pods-TaipeiTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34740DE1AFED1EF2A9F93F66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTourUITests/Pods-TaipeiTourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C51C810334B0B1D21E3E82E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		566FDF90D44DAC43491B0CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88BED21C02C69E66CF418AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AE2D2E2E6E1E187A106623 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTour/Pods-TaipeiTour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C47CC217FA57E8A34C63E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTourTests/Pods-TaipeiTourTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43016BC2A1CDD1465C44565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTourTests/Pods-TaipeiTourTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E92716E51DE810FB00732F76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92716EF1DE810FB00732F76 /* ViewController.swift in Sources */,
+				E9983BBF1DE84FFC009F4185 /* TPETouristAttractionTableViewCell.swift in Sources */,
+				E9A6F17D1DE81CE00072C3A2 /* TPETouristAttractionsResultModel.swift in Sources */,
+				E92716EF1DE810FB00732F76 /* TPETouristAttractionsTableViewController.swift in Sources */,
+				E9A6F1771DE816CD0072C3A2 /* TPETouristAttractionsPresenter.swift in Sources */,
+				E9983BC81DE9AB8C009F4185 /* TPETourismAPIService.swift in Sources */,
+				E9A6F17B1DE81C0F0072C3A2 /* TPETouristAttractionsAPIResponseModel.swift in Sources */,
 				E92716ED1DE810FB00732F76 /* AppDelegate.swift in Sources */,
+				E9A6F1791DE816F40072C3A2 /* TPETouristAttractionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +530,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		E9983BC41DE87829009F4185 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9983BC31DE87829009F4185 /* Base */,
+				E9983BC51DE8782E009F4185 /* en */,
+				E9983BC61DE87985009F4185 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -319,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -333,6 +562,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -369,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -383,6 +614,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,8 +642,12 @@
 		};
 		E92717121DE810FB00732F76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90445ED0D46DED9136D60F1E /* Pods-TaipeiTour.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaipeiTour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TaipeiTour;
@@ -422,8 +658,12 @@
 		};
 		E92717131DE810FB00732F76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89495D0E7AB4A959D0664D6 /* Pods-TaipeiTour.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaipeiTour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TaipeiTour;
@@ -434,8 +674,9 @@
 		};
 		E92717151DE810FB00732F76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DE2EAD4783F11BA045EC04 /* Pods-TaipeiTourTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TaipeiTourTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -448,8 +689,9 @@
 		};
 		E92717161DE810FB00732F76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4777EAF5BACE0CD3F257E011 /* Pods-TaipeiTourTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TaipeiTourTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -462,8 +704,9 @@
 		};
 		E92717181DE810FB00732F76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46A3DC51FF58D28E0239427 /* Pods-TaipeiTourUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = TaipeiTourUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TaipeiTourUITests;
@@ -475,8 +718,9 @@
 		};
 		E92717191DE810FB00732F76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FD798E39C93B59C9D5CDCD /* Pods-TaipeiTourUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = TaipeiTourUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TaipeiTourUITests;
@@ -505,6 +749,7 @@
 				E92717131DE810FB00732F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92717141DE810FB00732F76 /* Build configuration list for PBXNativeTarget "TaipeiTourTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +758,7 @@
 				E92717161DE810FB00732F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92717171DE810FB00732F76 /* Build configuration list for PBXNativeTarget "TaipeiTourUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +767,7 @@
 				E92717191DE810FB00732F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

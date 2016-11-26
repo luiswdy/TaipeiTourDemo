@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  TaipeiTour
+
+  Created by Luis Wu on 11/25/16.
+  Copyright © 2016 Luis Wu. All rights reserved.
+*/
+
+"nav_bar_title" = "Taipei Tourist Attractions";
+"error" = "Error";
+"dismiss" = "Dismiss";
+"category" = "Category";
+"category_filter_message" = "Choose the category you are interested in";
+"all_categories" = "All";
+"no_data" = "No data";
