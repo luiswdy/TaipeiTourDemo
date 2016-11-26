@@ -68,7 +68,12 @@ class TPETouristAttractionsTableViewController: UITableViewController {
                                                         constant: 0))
         
         // prepare refresh control
-        self.tableView.refreshControl = UIRefreshControl()
+        if #available(iOS 10.0, *) {
+            self.tableView.refreshControl = UIRefreshControl()
+        } else {
+            refreshControl = UIRefreshControl()
+            self.tableView.addSubview(refreshControl!)
+        }
         refreshControl?.addTarget(self, action: #selector(reloadAttractions(_:)), for: .valueChanged)
     }
     
